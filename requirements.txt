@@ -1,0 +1,6 @@
+tensorflow
+streamlit
+numpy
+opencv-python
+Pillow
+huggingface-hub
