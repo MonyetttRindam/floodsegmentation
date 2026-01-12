@@ -5,6 +5,10 @@ import cv2
 from PIL import Image
 from huggingface_hub import hf_hub_download
 import io
+import sys
+import streamlit as st
+
+st.write("Python version:", sys.version)
 
 # ==================== PAGE CONFIG ====================
 st.set_page_config(
@@ -433,4 +437,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
